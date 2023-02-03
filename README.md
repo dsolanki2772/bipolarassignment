@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+This project is assignment for tab and scan camera UI.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
