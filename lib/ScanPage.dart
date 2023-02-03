@@ -102,7 +102,7 @@ class _ScanPageState extends State<ScanPage> {
                   borderRadius: BorderRadius.only(
                       topRight: Radius.circular(6),
                       bottomRight: Radius.circular(6)),
-                  color: Colors.white,
+                  color: Color(0xfff3f3f3),
                 ),
                 child: Text(
                   tdata,
@@ -148,66 +148,7 @@ class _ScanPageState extends State<ScanPage> {
         alignment: Alignment.center,
         child: Container(
           child: Image.asset("assets/scan_border.png"),
-        )
-        /*Container(
-          height: 400,
-          width: 300,
-
-          child:Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Container(
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.only(topLeft: Radius.circular(50)),
-                      child: Container(
-                        color: Colors.green,
-                        height: 100,
-                        width: 100,
-                      ),
-                    ),
-                  ),
-                  Container(
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.only(topRight: Radius.circular(50)),
-                      child: Container(
-                        color: Colors.green,
-                        height: 100,
-                        width: 100,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    decoration: BoxDecoration(
-                      border: Border.fromBorderSide(BorderSide(color: Colors.white,width: 2)),
-                      borderRadius: BorderRadius.only(bottomLeft: Radius.circular(50)),
-                    ),
-                  ),
-                  Container(
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.only(bottomRight: Radius.circular(50)),
-                      child: Container(
-                        color: Colors.green,
-                        height: 100,
-                        width: 100,
-                      ),
-                    ),
-                  ),
-                ],
-              )
-            ],
-          )
-        )*/
-        ,
+        ),
       )
     ]));
   }
